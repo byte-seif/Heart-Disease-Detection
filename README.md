@@ -29,7 +29,7 @@ Age Distribution: Most patients are between 40-60 years, indicating higher preva
 Correlation Analysis: Positive correlations with heart disease were found for ST depression (oldpeak) and specific chest pain types.
 The insights from EDA guided feature selection and model development.
 
-Machine Learning Models
+# Machine Learning Models
 
 Three machine learning models were implemented and evaluated:
 
@@ -44,9 +44,9 @@ Quick baseline model with reasonable performance.
 Accuracy: 0.78, ROC-AUC: 0.8444
 Each model was evaluated using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 
-Feature Engineering and Optimization
+## Feature Engineering and Optimization
 
-Feature Engineering:
+### Feature Engineering:
 Categorical features were one-hot encoded.
 Numerical features were standardized for models like SVM and Logistic Regression.
 Important features identified from EDA were used in the models, including chest pain type, max heart rate, and ST slope.
@@ -60,10 +60,15 @@ Results and Comparison
 The models were compared based on the following metrics:
 
 Metric	Logistic Regression	SVM	Naive Bayes
+
 Accuracy	0.80	0.82	0.78
+
 Precision	0.80	0.82	0.78
+
 Recall	0.79	0.82	0.78
+
 F1-Score	0.80	0.82	0.78
+
 ROC-AUC	0.8564	0.8639	0.8444
 
 Summary of Results
